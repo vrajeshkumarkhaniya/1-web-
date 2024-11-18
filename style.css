@@ -1,0 +1,674 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  
+}
+.hh{
+    width: 100%;
+    height: 45px;
+    background-color: #ECFE43;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.navbar .navleft{
+    width: 50%;
+    height: inherit;
+    /* background-color: blue; */
+    display: flex;
+}
+.navbar .navleft .navbox{
+    width: 48px;
+    height: 50px;
+    /* background-color: #ECFE43; */
+    margin-left: 20px;
+   position: relative;
+   top: 20px;
+
+}
+.navbar .navleft .navbox1{
+    width: 200px;
+    height: 50px;
+    /* background-color: aqua; */
+    position: relative;
+    top: 20px;
+}
+
+.navbar .navleft .navbox1 p{
+font-size: 20px;
+font-weight: 350;
+position: relative;
+top: 10px;
+}
+.navright{
+    width: 50%;
+    height:80px ;
+    /* background-color: rgb(0, 255, 51); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   padding-left: 100px;
+}
+.navright a{
+    text-decoration: none;
+}
+.navright a:hover{
+    transition: 0.10;
+    color: rgb(148, 205, 211);
+
+}
+.vv{
+    width: 100px;
+    height: 50px;
+    /* background-color: aqua; */
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    left: 6px;
+    color: black;
+}
+.vv svg{
+    width: 40px;
+}
+.vv svg:hover{
+    cursor: pointer;
+}
+.herosection{
+    width: 100%;
+    height: 650px;
+    background-color: red;
+    background-image: url(./Assets/375882_9aca872fe713416e97e12f7282d9efcd~mv2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.herosection img{
+    width: 100%;
+    height: 750px;
+   
+}
+.herosection .heroleft{
+    width: 50%;
+    height: inherit;
+}
+.tt{
+    width: 100%;
+    height: 150px;
+    /* background-color: red; */
+    position: relative;
+    top: 150px;
+}
+.herosection .heroleft .tt p{
+    font-size: 120px;
+    font-weight: 550;
+    color: #253C57;
+    margin-left: 270px;
+}
+.aa{
+    width: 100%;
+    height: 50px;
+    /* background-color: #ECFE43; */
+    position: relative;
+    top: 150px;
+    line-height: 50px;
+}
+.aa p{
+    font-size: 40px;
+    font-weight: 300;
+    margin-left: 275px; 
+    color: #253C57;
+}
+.cc{
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    position: relative;
+    top: 150px;
+
+}
+.cc img{
+    width: 4%;
+    height: 16%;
+    position: relative;
+    left: 275px;
+    top: 20px;
+    padding-inline: 5px;   
+}
+.vhv{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: end;
+  
+}
+.vhv button{
+    width: 300px;
+    height: 100px;
+    outline: none;
+    border: none;
+  background-color: #BEE1E6;
+}
+.vhv button p{
+    font-size: 20px;
+    
+}
+#uu{
+    background-color: #253C57;
+    color: white;
+}
+.vhv button:hover{
+    transition: 0.3s;
+    background-color: rgb(249, 249, 67);
+    cursor: pointer;
+}
+#uu:hover{
+    transition: 0.3s;
+    background-color: #BEE1E6;
+    cursor: pointer;
+    color: black;
+}
+.info{
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+    position: relative;
+    top: 90px;
+}
+.info img{
+    margin-left: 21%;
+}
+.info .qq{
+    width: 35%;
+    height: 550px;
+    background-color: #EEFF42;
+    margin-top: -350px;
+   position: absolute;
+   margin-left: 820px;
+}
+.ww{
+    width: 100%;
+    height: 80px;
+    /* background-color: rgb(0, 255, 119); */
+    position: relative;
+    top: 100px;
+}
+.ww p{
+    font-size: 70px;
+    margin-left: 140px;  
+}
+.gg{
+    width: 100%;
+    height: 50px;
+    /* background-color: blue; */
+    position: relative;
+    top: 130px;
+ 
+}
+.gg p{
+    font-size: 30px;
+    margin-left: 140px;
+    position: relative;
+    top: 5px;
+    font-weight: 400;
+}
+.ty{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+   
+}
+.we{
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center ;
+    margin-top: 120px;
+
+}
+.we h4{
+    font-weight: 300;
+    padding-inline: 145px;
+    line-height: 25px;
+}
+.qq button{
+    width: 200px;
+    height: 50px;
+    background-color: #253C57;
+    color: white;
+    border: none;
+}
+.qq button:hover{
+    background-color: #BEE1E6;
+    transition: 0.3s;
+    cursor: pointer;
+    color: black;
+    
+}
+.back{
+    height: 600px;
+    width: 65%;
+    background-color: red;
+    margin-top: 250px;
+    float: right;
+    background-image: url(./Assets/c22c23_dc8663f79470452884fe65ee3ce91881~mv2_d_5760_3840_s_4_2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.jkl{
+    width: 40%;
+    height: 550px;
+    background-color: #BEE1E6;
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 500px;
+}
+.mn {
+    width: 100%;
+    height: 70px;
+    /* background-color: aqua; */
+    padding-inline: 160px;
+    margin-top: 70px;
+}
+.mn p{
+    font-size: 55px;
+    color: #253C57;
+}
+.op {
+    width: 100%;
+    height: 40px;
+    /* background-color: blue; */
+    padding-inline: 160px;
+    position: relative;
+    top: 30px;
+}
+.op p{
+    font-size: 35px;
+    color: #253C57;
+}
+.io{
+    width: 100%;
+    height: 180px;
+    /* background-color: aqua; */
+    margin-top: 70px;
+    padding-inline: 163px;
+}
+.io p{
+    font-size: 20px;
+    word-spacing: 2PX;
+    font-weight: 300;
+}
+.jkl button{
+    width: 230px;
+    background-color: #ECFE43;
+    height: 75px;
+    color: #253C57;
+    border: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.jkl button p{
+    font-size: 20px;
+}
+.jkl button:hover{
+    transition: 0.3s;
+    background-color:#253C57 ;
+    cursor: pointer;
+    color: white;
+}
+.main{
+    width: 100%;
+    height: 1000px;
+    background-color: #F2F2F2;
+    margin-top: 1200px;
+}
+.qwe{
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
+    position: relative;
+    top: 100px;
+}
+.qwe p{
+    font-size: 70px;
+    color: #253C57;
+    position: relative;
+    left: 780px;
+}
+.mv{
+    width: 100%;
+    height: 550px;
+    /* background-color: red; */
+    margin-top: 180px;
+    
+}
+.api{
+    width: 55%;
+    height: inherit;
+    /* background-color: blue; */
+    position: relative;
+    left: 25%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.zz{
+    width: 30%;
+    height: inherit;
+    /* border: 2px solid black; */
+}
+.zz .tr img{
+    width: 100%;
+    height: 60%;
+    /* background-color: blue; */
+    /* background-image: url(./Assets/375882_3f060d74b64143eca7b9d8bf7ae00f56~mv2_d_4774_3183_s_4_2.jpg); */
+    
+}
+.rt{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+}
+.fdg{
+    width: 100%;
+    height: 30px;
+    /* background-color: blue; */
+    padding-inline: 14%;
+    position: relative;
+    top: 30px;
+}
+.fdg p{
+    font-size: 25px;
+}
+.rt a{
+    position: relative;
+    top: 60px;
+    left: 37%;
+}
+.ghj{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 90px;
+    left: 40%;
+}
+#ll{
+    position: relative;
+    left: 9%;
+}
+#vra{
+    position: relative;
+    left: 12%;
+}
+.api .zz:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.mv button{
+    width: 180px;
+    height: 50px;
+    background-color: #253C57;
+    color: white;
+    border: none;
+    position: relative;
+    left: 900px;
+    top: 100px;
+
+}
+.mv button:hover{
+    transition: 0.3s;
+    background-color: #BEE1E6;
+    cursor: pointer;
+    transform: scale(1.03);
+    border: none;
+}
+.dfn{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+}
+.dfn p{
+    font-size: 35px;
+    position: relative;
+    left: 880px;
+    top: 30px;
+}
+.son{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+.vrajesh{
+    width: 100%;
+    height: 600px;
+    background-color: red;
+    margin-top: 100px;
+    background-image: url(./Assets/84770f_62d40c25853f4f96a6f9c91d926ec7de~mv2_d_4752_3168_s_4_2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pop{
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
+   position: relative;
+   top: 140px;
+}
+.pop p{
+    font-size: 60px;
+    position: relative;
+    left: 750px;
+    color: #253C57;
+
+}
+.may{
+    width: 100%;
+    height: 50px;
+    /* background-color: blue; */
+    position: relative;
+    top: 220px;
+}
+.may p{
+    font-size: 35px;
+    position: relative;
+    left: 810px;
+    color: #253C57;
+}
+.jan{
+    width: 100%;
+    height: 30px;
+    /* background-color: aqua; */
+    position: relative;
+    top: 220px;
+}
+.jan p{
+    font-weight: 300;
+    color: #253C57;
+    position: relative;
+    left: 770px;
+}
+#mayu{
+    padding-inline: 80px;
+}
+.vrajesh button{
+    position: relative;
+    top: 250px;
+}
+.gf{
+    width: 100%;
+    height: 60px;
+    /* background-color:red; */
+    margin-top: 230px;
+    padding-inline: 800px;
+
+}
+.gf img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.palak{
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+   display: flex;
+}
+.palak .palakleft{
+    width: 40%;
+    height: inherit;
+    background-color: #BEE1E6;
+}
+.palak .palakleft .palak2{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    position: relative;
+    top: 100px;
+
+}
+.palak .palakleft .palak2 p{
+    font-size: 75px;
+    color: #253C57;
+    position: relative;
+    left: 155px;
+}
+.vraju{
+    width: 100%;
+    height: 25px;
+    /* background-color: #ECFE43; */
+    position: relative;
+    top: 140px;
+}
+.vraju p{
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+    left: 166px;
+}
+.palakright{
+    width: 60%;
+    height: inherit;
+    /* background-color: #ECFE43; */
+}
+.water{
+    width: 100%;
+    height: 40px;
+    /* background-color: aqua; */
+    position: relative;
+    top: 120px;
+}
+.water input{
+    width: 23%;
+    height: 40px;
+    position: relative;
+    left: 300px;
+    margin-left: 20px;
+    border: 2px solid rgb(118, 113, 113);   
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 1px solid rgb(118, 113, 113); ;
+}
+.water input:hover{
+    transform: scale(1.01);
+   border-bottom: 1px solid black;
+    
+}
+.fire{
+    width: 100%;
+    height: 40px;
+    /* background-color: aqua; */
+    position: relative;
+    top: 170px;
+}
+.fire input{
+    width: 23%;
+    height: 40px;
+    position: relative;
+    left: 300px;
+    margin-left: 20px;
+    border: 2px solid rgb(118, 113, 113);   
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 1px solid rgb(118, 113, 113); ;
+}
+.fire input:hover{
+    transform: scale(1.01);
+   border-bottom: 1px solid black;
+    
+}
+/* .air{
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+    position: relative;
+    top: px;
+}
+.air input{
+    width: 23%;
+    height: 40px;
+    position: relative;
+    left: 200px;
+    margin-left: 20px;
+    border: 2px solid rgb(118, 113, 113);   
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 1px solid rgb(118, 113, 113); ;
+}
+.air input:hover{
+    transform: scale(1.01);
+   border-bottom: 1px solid black;
+    
+} */
+textarea{
+    background-color: transparent;
+    border: 2px solid black;
+    outline: none;
+    padding-inline: 10px;
+    padding-top: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    top: 250px;
+    left: 320px;
+}
+.palakright button{
+    width: 48%;
+    height: 50px;
+    background-color: transparent;
+    position: relative;
+    top: 350px;
+    right: 230px;
+    border: none;
+}
+.palakright button p{
+    font-size: 30px;
+}
+.palakright button:hover{
+    transition: 1s;
+    background-color: #ECFE43;
+}
